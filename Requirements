@@ -1,0 +1,22 @@
+Car Class:
+Represents a car with attributes make, model, year, and dailyRate.
+Provides a constructor to initialize these attributes and getter methods to access them.
+Overrides toString() method to provide a readable representation of the car.
+ 
+CarRentalAgency Class:
+Manages a collection of Car objects using a List<Car> named cars.
+ 
+Provides methods:
+addCar(Car car): Adds a car to the agency's fleet.
+displayCars(): Displays details of all cars in the fleet by iterating through the cars list.
+ 
+Main Class (SetBCarRentalSystem Class):
+Contains the main method where the car rental agency and cars are instantiated and tested.
+Creates a CarRentalAgency instance.
+Adds several cars to the agency using addCar() method.
+Displays all cars available for rent using displayCars() method.
+ 
+Summary:
+Car Rental System:
+Manages cars (Car class) and their details in a rental agency (CarRentalAgency class).
+Shows basic operations like adding cars and displaying all cars available for rent.
